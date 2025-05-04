@@ -1,8 +1,11 @@
 @import "tailwindcss";
-/* @plugin "daisyui"; */
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, cupcake;
+}
 
 @theme {
 
+  /* BreakPoint */
     --breakpoint-sm: 480px;
     --breakpoint-md: 768px;
     --breakpoint-lg: 976px;
@@ -15,9 +18,9 @@
     --breakpoint-7xl: 7680px;
     --breakpoint-8xl: 10240px;
 
-    
+  /* Color */ 
     --color-facebook: #3b5998;
-    --color-instagram-style: #E1306C;
+    --color-instagram: #E1306C;
     --color-linkedin: #0077B5;
     --color-pinterest: #E60023;
     --color-youtube: #FF0000;
